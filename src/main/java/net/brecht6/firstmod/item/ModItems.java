@@ -13,7 +13,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit)));
 
     public static final Item lemon = registerItem("lemon",
-            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit )));
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FirstMod.MOD_ID, name), item);
