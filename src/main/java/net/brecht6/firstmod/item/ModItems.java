@@ -9,10 +9,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item Banana = registerItem("banana",
+    public static final Item BANANA = registerItem("banana",
             new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit)));
 
-    public static final Item lemon = registerItem("lemon",
+    public static final Item LEMON = registerItem("lemon",
             new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit)));
 
     private static Item registerItem(String name, Item item) {
