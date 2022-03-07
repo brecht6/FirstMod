@@ -10,10 +10,10 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item BANANA = registerItem("banana",
-            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit)));
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.FRUIT)));
 
     public static final Item LEMON = registerItem("lemon",
-            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.fruit)));
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.FRUIT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FirstMod.MOD_ID, name), item);
