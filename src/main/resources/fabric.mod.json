@@ -22,9 +22,6 @@
       "net.brecht6.firstmod.FirstMod"
     ]
   },
-  "mixins": [
-    "firstmod.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
