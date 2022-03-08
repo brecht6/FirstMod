@@ -1,0 +1,10 @@
+{
+  "underwaterbeats-delete": {
+    "sounds": [
+      {
+        "name": "firstmod:underwaterbeats-delete",
+        "stream": true
+      }
+    ]
+  }
+} 
